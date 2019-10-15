@@ -247,4 +247,4 @@ Accept-Ranges: bytes
 <h1>Hello World</h1>
 ```
 
-Refensi : https://www.katacoda.com/
+Referensi : https://www.katacoda.com/
