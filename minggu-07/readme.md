@@ -9,7 +9,7 @@
 2. Install node.js  
 https://nodejs.org/en/download/
 
-3. Install now-cli dengan npm  
+3. Install now-cli dengan npm   
 Buka powershell admin / bash lalu ketik berikut
 ```
 PS C:\Windows\system32> npm i -g now
