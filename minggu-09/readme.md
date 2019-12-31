@@ -134,7 +134,7 @@ db373610278b        python_flask:v1     "python app.py"     10 minutes ago      
 
 11. Atau bisa juga cek Restful melalui terminal
 ```
-Syaifuls-MacBook-Pro:python_flask ipul$ curl http://localhost:5000
+KudaKuda:python_flask ipul$ curl http://localhost:5000
 {
     "hello": "world"
 }
@@ -143,53 +143,7 @@ Syaifuls-MacBook-Pro:python_flask ipul$ curl http://localhost:5000
 ```
 $ docker push najibun/python_flask:v1
 
-The push refers to repository [7. Cek apakah image sudah benar-benar terbuat dengan sukses
-```
-$ docker images | grep flask
-
-sfmusta/python_flask  v1  ae6ef9e26bf9  8 minutes ago 893MB
-```
-8. Menjalankan image menjadi container
-```
-$ docker run -d -p 5000:5000 python_flask:v1
-
-db373610278bfac481e61d1a0b49f907190b797b54b8e094da097d93c9f6111f
-```
-9. Cek running container
-```
-$ docker ps 
-
-CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS                    NAMES
-db373610278b        python_flask:v1     "python app.py"     10 minutes ago      Up 10 minutes       0.0.0.0:5000->5000/tcp   strange_sutherland
-```
-10. Cek melalui Browser
-![Tes melalui Browser](browser.png)
-
-11. Atau bisa juga cek Restful melalui terminal
-```
-Syaifuls-MacBook-Pro:python_flask ipul$ curl http://localhost:5000
-{
-    "hello": "world"
-}
-```
-12. Push image ke Docker Hub
-```
-$ docker push sfmusta/python_flask:v1
-
-The push refers to repository [docker.io/sfmusta/python_flask]
-44143aa6a87e: Pushed 
-a71ef10fbb41: Pushed 
-5f0360db0de8: Pushed 
-8495f4c587b7: Pushed 
-d49ab6253989: Pushed 
-27461d589893: Pushed 
-31f78d833a92: Pushed 
-2ea751c0f96c: Pushed 
-7a435d49206f: Pushed 
-9674e3075904: Pushed 
-831b66a484dc: Pushed 
-v1: digest: sha256:5e7401c7ef9c62909b8e10050d86cbafbad89691094461e9ab7c364fd1a8934a size: 2639
-```]
+The push refers to repository [docker.io/najibun/python_flask]
 44143aa6a87e: Pushed 
 a71ef10fbb41: Pushed 
 5f0360db0de8: Pushed 
@@ -203,3 +157,4 @@ d49ab6253989: Pushed
 831b66a484dc: Pushed 
 v1: digest: sha256:5e7401c7ef9c62909b8e10050d86cbafbad89691094461e9ab7c364fd1a8934a size: 2639
 ```
+
